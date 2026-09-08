@@ -7,9 +7,7 @@
 
 ## 🌐 Live Website
 
-🔗 **GitHub Pages**: [https://YOUR-USERNAME.github.io/pangasinan-heritage-showcase/](https://YOUR-USERNAME.github.io/pangasinan-heritage-showcase/)
-
-> Note: Replace `YOUR-USERNAME` with your actual GitHub username after deployment
+🔗 **GitHub Pages**: [https://ChrisLo05.github.io/pangasinan-heritage-showcase/](https://ChrisLo05.github.io/pangasinan-heritage-showcase/)
 
 ---
 
