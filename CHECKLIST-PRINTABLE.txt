@@ -1,0 +1,141 @@
+================================================================================
+   ACTIVITY 2 - PRINTABLE CHECKLIST
+   Christian Lozada - Pangasinan Heritage Showcase
+================================================================================
+
+PREPARATION
+[ ] Node.js installed (test: type "node --version" in CMD)
+[ ] GitHub account created
+[ ] Google Chrome installed
+
+--------------------------------------------------------------------------------
+STEP 1: BUILD THE SITE (2 minutes)
+--------------------------------------------------------------------------------
+[ ] Open CMD (Windows Key → type "cmd" → Enter)
+[ ] Navigate to project:
+    cd "C:\Users\Christian Lozada\Downloads\Activity 1\pangasinan-heritage-showcase"
+[ ] Build site: npm run build
+[ ] Wait for "Export successful" message
+[ ] Verify: dir out (should show files)
+
+--------------------------------------------------------------------------------
+STEP 2: CREATE GITHUB REPOSITORY (3 minutes)
+--------------------------------------------------------------------------------
+[ ] Go to: https://github.com/new
+[ ] Repository name: pangasinan-heritage-showcase
+[ ] Description: Pangasinan Heritage Digital Showcase - Activity 2
+[ ] Select: PUBLIC (not Private!)
+[ ] Do NOT check "Add README" or any boxes
+[ ] Click: Create repository
+[ ] Copy repository URL for next step
+
+--------------------------------------------------------------------------------
+STEP 3: PUSH TO GITHUB (5 minutes)
+--------------------------------------------------------------------------------
+[ ] In CMD, run: git init
+[ ] Run: git add .
+[ ] Run: git commit -m "Activity 2 - Initial deployment"
+[ ] Run: git remote add origin [PASTE YOUR URL HERE]
+[ ] Run: git branch -M main
+[ ] Run: git push -u origin main
+[ ] Enter username/token if asked
+[ ] Wait for "done" message
+[ ] Refresh GitHub page - files should appear
+
+--------------------------------------------------------------------------------
+STEP 4: ENABLE GITHUB PAGES (2 minutes)
+--------------------------------------------------------------------------------
+[ ] On GitHub, click: Settings tab
+[ ] Click: Pages (left sidebar)
+[ ] Under "Build and deployment"
+[ ] Source: Select "GitHub Actions"
+[ ] Click: Actions tab (top)
+[ ] Wait for workflow to turn green ✅ (2-5 minutes)
+
+--------------------------------------------------------------------------------
+STEP 5: TEST LIVE SITE (5 minutes)
+--------------------------------------------------------------------------------
+[ ] Go to: Settings → Pages
+[ ] Copy live URL (https://YOUR-USERNAME.github.io/pangasinan-heritage-showcase/)
+[ ] Visit URL in browser
+[ ] Test: Homepage loads
+[ ] Test: Hundred Islands page works
+[ ] Test: Bolinao Lighthouse page works
+[ ] Test: Balungao Hot Spring page works
+[ ] Test: Navigation menu works
+[ ] Test: All images display
+[ ] Test: Mobile responsive (resize browser)
+
+--------------------------------------------------------------------------------
+STEP 6: LIGHTHOUSE AUDIT (5 minutes)
+--------------------------------------------------------------------------------
+[ ] Open live site in Google Chrome
+[ ] Right-click → Inspect (or press F12)
+[ ] Click: Lighthouse tab (or >> → Lighthouse)
+[ ] Check ALL 4 boxes:
+    [ ] Performance
+    [ ] Accessibility
+    [ ] Best Practices
+    [ ] SEO
+[ ] Select: Desktop (or Mobile)
+[ ] Click: "Analyze page load"
+[ ] Wait 30-60 seconds
+[ ] Note scores:
+    Performance: _____ (need ≥80)
+    Accessibility: _____ (need ≥85)
+    Best Practices: _____ (need ≥85)
+    SEO: _____ (need ≥90)
+[ ] Screenshot results (Windows Key + Shift + S)
+[ ] Save as: lighthouse-results.png
+
+--------------------------------------------------------------------------------
+STEP 7: SUBMIT TO GOOGLE CLASSROOM (5 minutes)
+--------------------------------------------------------------------------------
+[ ] Open Notepad
+[ ] Write submission text with:
+    [ ] Your name
+    [ ] GitHub repository URL
+    [ ] GitHub Pages live URL
+    [ ] Lighthouse scores
+[ ] Save as: Activity-2-Submission.txt
+[ ] Go to Google Classroom
+[ ] Find Activity 2 assignment
+[ ] Attach: Activity-2-Submission.txt
+[ ] Attach: lighthouse-results.png
+[ ] Click: Turn in
+[ ] Click: Turn in (confirm)
+
+================================================================================
+✅ DONE! YOU'VE COMPLETED ACTIVITY 2!
+================================================================================
+
+SUBMISSION INCLUDES:
+✅ GitHub Repository: https://github.com/_______________/pangasinan-heritage-showcase
+✅ Live Website: https://_______________github.io/pangasinan-heritage-showcase/
+✅ Lighthouse Results: All 4 scores documented
+
+YOUR WEBSITE IS NOW LIVE ON THE INTERNET! 🎉
+
+================================================================================
+TROUBLESHOOTING:
+================================================================================
+
+"npm not recognized" → Install Node.js from https://nodejs.org/ then restart CMD
+
+"git not recognized" → Install Git from https://git-scm.com/download/win
+
+Can't push to GitHub → Use Personal Access Token instead of password
+                       Go to: https://github.com/settings/tokens
+
+404 on GitHub Pages → Wait 2-5 minutes, refresh page
+
+Build fails → Delete node_modules, .next, out folders
+              Run: npm install
+              Run: npm run build
+
+================================================================================
+Student: Christian Lozada
+Activity: 2 - GitHub Pages Deployment
+Instructor: Rey Molano
+Framework: Next.js 14
+================================================================================

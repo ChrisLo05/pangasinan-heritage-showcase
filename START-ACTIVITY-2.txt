@@ -1,0 +1,81 @@
+================================================================================
+   🚀 ACTIVITY 2 - START HERE
+   Christian Lozada - Pangasinan Heritage Showcase
+================================================================================
+
+Welcome to Activity 2! Everything is ready for deployment.
+
+--------------------------------------------------------------------------------
+📋 WHAT YOU NEED TO DO (6 Easy Steps)
+--------------------------------------------------------------------------------
+
+STEP 1: Build the Site (2 min) ⚡
+    Open terminal in this folder and run:
+    
+        npm run build
+    
+    This creates static HTML files in the 'out/' folder.
+
+STEP 2: Create GitHub Repository (3 min) 🌐
+    1. Go to: https://github.com/new
+    2. Name: pangasinan-heritage-showcase
+    3. Make it PUBLIC
+    4. Click "Create repository"
+
+STEP 3: Push to GitHub (3 min) 📤
+    Run in terminal:
+    
+        git init
+        git add .
+        git commit -m "Activity 2 deployment"
+        git remote add origin https://github.com/YOUR-USERNAME/pangasinan-heritage-showcase.git
+        git push -u origin main
+    
+    (Replace YOUR-USERNAME with your GitHub username!)
+
+STEP 4: Enable GitHub Pages (2 min) ⚡
+    1. Go to repo Settings → Pages
+    2. Source: "GitHub Actions"
+    3. Done! Wait 2-5 minutes for deployment
+
+STEP 5: Test Your Live Site (5 min) 🧪
+    Visit: https://YOUR-USERNAME.github.io/pangasinan-heritage-showcase/
+    
+    Test all pages, navigation, and responsive design.
+
+STEP 6: Run Lighthouse Audit (5 min) 📊
+    1. Open live site in Chrome
+    2. Right-click → Inspect → Lighthouse tab
+    3. Check all 4 categories
+    4. Click "Analyze page load"
+    5. Screenshot the results
+
+DONE! Submit to Google Classroom 📤
+
+--------------------------------------------------------------------------------
+📚 HELPFUL FILES
+--------------------------------------------------------------------------------
+
+📖 QUICK-START-ACTIVITY-2.txt      ← Quick commands reference
+📖 DEPLOYMENT-GUIDE.md              ← Detailed step-by-step guide
+📖 SUBMISSION-CHECKLIST.md          ← Complete checklist with troubleshooting
+📖 ACTIVITY-2-SUBMISSION.md         ← Submission template
+💻 setup-github.ps1                 ← PowerShell automation script
+
+--------------------------------------------------------------------------------
+🎯 WHAT TO SUBMIT
+--------------------------------------------------------------------------------
+
+1. GitHub Repository URL
+2. GitHub Pages URL
+3. Lighthouse screenshot/PDF
+
+TOTAL TIME: ~20-30 minutes
+
+================================================================================
+
+NEED HELP? Read: DEPLOYMENT-GUIDE.md
+
+LET'S DEPLOY! 🚀
+
+================================================================================
