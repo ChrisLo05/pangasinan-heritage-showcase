@@ -16,7 +16,7 @@ export default function BalungaoHotSpringPage() {
         {/* Hero Section */}
         <section className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&h=900&fit=crop"
+            src="/balungao-hotspring.webp"
             alt="Balungao Hot Spring resort pools"
             className="w-full h-full brightness-75"
             objectFit="cover"

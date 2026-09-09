@@ -16,7 +16,7 @@ export default function BolinaoLighthousePage() {
         {/* Hero Section */}
         <section className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] overflow-hidden">
           <Image
-            src="https://images.unsplash.com/photo-1502933691298-84fc14542831?w=1600&h=900&fit=crop"
+            src="/bolinao-lighthouse.png"
             alt="Bolinao Lighthouse overlooking the sea"
             className="w-full h-full brightness-75"
             objectFit="cover"
