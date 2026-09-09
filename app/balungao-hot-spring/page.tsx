@@ -210,7 +210,7 @@ export default function BalungaoHotSpringPage() {
 
               {/* CTA */}
               <div className="text-center">
-                <a href="/">
+                <a href="/pangasinan-heritage-showcase">
                   <Button variant="primary" size="lg" className="inline-flex items-center gap-2">
                     <Icon name="arrow-right" size="sm" className="rotate-180" ariaLabel="Back" />
                     Back to Home

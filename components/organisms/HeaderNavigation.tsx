@@ -10,10 +10,10 @@ export interface HeaderNavigationProps {
 }
 
 const navigationLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/hundred-islands', label: 'Hundred Islands' },
-  { href: '/bolinao-lighthouse', label: 'Bolinao Lighthouse' },
-  { href: '/balungao-hot-spring', label: 'Balungao Hot Spring' },
+  { href: '/pangasinan-heritage-showcase', label: 'Home' },
+  { href: '/pangasinan-heritage-showcase/hundred-islands', label: 'Hundred Islands' },
+  { href: '/pangasinan-heritage-showcase/bolinao-lighthouse', label: 'Bolinao Lighthouse' },
+  { href: '/pangasinan-heritage-showcase/balungao-hot-spring', label: 'Balungao Hot Spring' },
 ];
 
 const HeaderNavigation: React.FC<HeaderNavigationProps> = ({ currentPath = '/' }) => {
@@ -28,7 +28,7 @@ const HeaderNavigation: React.FC<HeaderNavigationProps> = ({ currentPath = '/' }
       <nav className="container-custom" aria-label="Main navigation">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
-          <a href="/" className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-md p-1">
+          <a href="/pangasinan-heritage-showcase" className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-md p-1">
             <Icon name="compass" size="lg" className="text-primary-600 group-hover:rotate-12 transition-transform duration-300" ariaLabel="Pangasinan Heritage logo" />
             <Typography variant="h4" className="text-lg sm:text-xl md:text-2xl hidden sm:block">
               Pangasinan Heritage

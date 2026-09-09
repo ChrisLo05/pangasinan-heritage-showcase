@@ -14,7 +14,7 @@ const heritageSites: HeritageCardProps[] = [
     description: 'A stunning archipelago of 124 islands and islets scattered across Lingayen Gulf. Perfect for island hopping, snorkeling, and kayaking adventures.',
     imageUrl: '/pangasinan-heritage-showcase/hundred-islands.jpg',
     iconName: 'beach',
-    href: '/hundred-islands',
+    href: '/pangasinan-heritage-showcase/hundred-islands',
   },
   {
     title: 'Bolinao Lighthouse',
@@ -22,7 +22,7 @@ const heritageSites: HeritageCardProps[] = [
     description: 'A historic Spanish colonial lighthouse built in 1905, standing tall on Punta Piedra Point. Offers breathtaking panoramic views of the West Philippine Sea.',
     imageUrl: '/pangasinan-heritage-showcase/bolinao-lighthouse.png',
     iconName: 'lighthouse',
-    href: '/bolinao-lighthouse',
+    href: '/pangasinan-heritage-showcase/bolinao-lighthouse',
   },
   {
     title: 'Balungao Hot Spring',
@@ -30,7 +30,7 @@ const heritageSites: HeritageCardProps[] = [
     description: 'Natural sulfuric hot springs nestled in a lush hilltop resort. Known for therapeutic waters and stunning hilltop views perfect for relaxation.',
     imageUrl: '/pangasinan-heritage-showcase/balungao-hotspring.webp',
     iconName: 'hot-spring',
-    href: '/balungao-hot-spring',
+    href: '/pangasinan-heritage-showcase/balungao-hot-spring',
   },
 ];
 
