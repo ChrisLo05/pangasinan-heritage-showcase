@@ -16,7 +16,7 @@ export default function BolinaoLighthousePage() {
         {/* Hero Section */}
         <section className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] overflow-hidden">
           <Image
-            src="/bolinao-lighthouse.png"
+            src="/pangasinan-heritage-showcase/bolinao-lighthouse.png"
             alt="Bolinao Lighthouse overlooking the sea"
             className="w-full h-full brightness-75"
             objectFit="cover"
